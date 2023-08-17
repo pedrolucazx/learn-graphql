@@ -1,0 +1,8 @@
+scalar Date
+
+type Produto {
+  nome: String!
+  preco: Float!
+  desconto: Float
+  precoComDesconto: Float
+}
